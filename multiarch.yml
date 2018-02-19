@@ -9,5 +9,5 @@ manifests:
   -
     image: "astroswarm/base-armv7l:latest"
     platform:
-      architecture: arm64
+      architecture: arm
       os: linux
