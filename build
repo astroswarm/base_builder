@@ -6,9 +6,9 @@ ARCH=`uname -m`
 echo "Detected architecture: $ARCH."
 
 if [ $ARCH = "x86_64" ]; then
-  BASE_IMAGE="debian:jessie"
+  BASE_IMAGE="debian:stretch"
 elif [ $ARCH = "armv7l" ]; then
-  BASE_IMAGE="resin/rpi-raspbian:jessie-20170614"
+  BASE_IMAGE="resin/rpi-raspbian:stretch-20180626"
 else
   echo "Invalid architecture"
   exit 1
